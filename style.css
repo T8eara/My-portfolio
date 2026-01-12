@@ -1,0 +1,36 @@
+body {
+  scroll-behavior: smooth;
+  padding-top: 70px;
+}
+section {
+  scroll-margin-top: 70px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.github {
+  border-color: #fff;
+  color: #ccc;
+}
+.github:hover {
+  background: #fff;
+  color: #000;
+}
+.telegram {
+  border-color: #0088cc;
+  color: #0088cc;
+}
+.telegram:hover {
+  background: #0088cc;
+  color: #fff;
+}
